@@ -2,31 +2,41 @@
     display: flex;
     width: 600px;
     margin: auto;
-    flex-grow: 1;
-    justify-content: center;
-    float: none;
-    overflow: auto;
+    justify-content: space-around;
+    border-bottom: 2px double;
 }
 .child{
     display:flex; 
     width: 600px;
     margin: auto;
-    align-items: flex-start;  
+    align-items: flex-start;
 }
-.child > .content{
-    margin: 2%;
-    justify-content: flex-end;
-    align-items: flex-end; 
+ .name{
+   text-align: center;
 }
-.child > .name{
-    align-items: flex-end;
+a{
+    color: black;
+    text-decoration: none ;
 }
-.hr{
+a:active{
+    font-weight: bold;
+}
+a:hover{
+    font-style: italic;
+}
+a:visited{
+    text-decoration: silver;
+}
+.footer{
+    display: flex;
     width: 600px;
     margin: auto;
-    border-bottom: 2px double;
+    border-top: 2px double;
+    justify-content: center;
 }
-.child > .name{
-    align-items: flex-end;
-    justify-content: flex-start;
+.italic{
+    font-style: italic;
+}
+.line{
+    border-bottom: double;
 }
