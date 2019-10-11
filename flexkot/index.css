@@ -3,8 +3,9 @@
     width: 600px;
     margin: auto;
     flex-grow: 1;
-    
     justify-content: center;
+    float: none;
+    overflow: auto;
 }
 .child{
     display:flex; 
@@ -20,10 +21,12 @@
 .child > .name{
     align-items: flex-end;
 }
-.hrproperties{
+.hr{
     width: 600px;
-    align: center;
+    margin: auto;
+    border-bottom: 2px double;
 }
 .child > .name{
     align-items: flex-end;
+    justify-content: flex-start;
 }
