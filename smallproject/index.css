@@ -1,0 +1,139 @@
+.btn{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.btn1{
+    background:rgb(0, 255, 42) ;
+    border-radius: 50px;
+    outline-width: 0;
+    border-color: black;
+}
+.btn1:hover {
+    background-color: rgb(185, 255, 153);
+    border-radius: 50px;
+    outline-width: 0;  
+}
+
+.btn1:active, .btn.active {
+    border-radius: 36px;
+    outline-width: 0;
+    background-color: rgb(255, 255, 255);
+}
+.btn2{
+    background:rgb(255, 102, 0) ;
+    border-radius: 50px;
+    outline-width: 0;
+    border-color: black;
+}
+.btn2:hover {
+    background-color: rgb(255, 180, 130);
+    border-radius: 50px;
+    outline-width: 0;  
+}
+
+.btn2:active, .btn.active {
+    border-radius: 36px;
+    outline-width: 0;
+    background-color: rgb(255, 255, 255);
+}
+.btn3{
+    background:rgb(0, 204, 255) ;
+    border-radius: 50px;
+    outline-width: 0;
+    border-color: black;
+}
+.btn3:hover {
+    background-color: rgb(179, 249, 255);
+    border-radius: 50px;
+    outline-width: 0;  
+}
+.btn3:active, .btn.active {
+    border-radius: 36px;
+    outline-width: 0;
+    background-color: rgb(255, 255, 255);
+}
+.name{
+    display: flex;
+    margin: auto;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+}
+.header{
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    background-color:  rgba(81, 195, 248, 0.589);
+}
+.searcher{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    background-color: rgba(171, 220, 243, 0.589);
+    justify-content:center;
+    align-items:center;
+}
+.content{
+    display: flex;
+    margin: auto;
+    width: 80%;   
+}
+.content1{
+    display: flex;
+    padding: 15px;
+    border-bottom: 2px double;
+    align-items: flex-start;
+    background-color: rgba(199, 236, 253, 0.589);
+}
+.content2{
+    display: flex;
+    padding: 15px;
+    border-bottom: 2px double;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(199, 236, 253, 0.589);  
+}
+.content3{
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    background-color: rgba(199, 236, 253, 0.589);  
+}
+.description{
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+}
+.btn-error {
+    border-color: black;
+    padding: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    border-radius: 30px;
+    outline-width: 0;
+    background-color: rgb(158, 28, 28);
+}
+
+.btn-error:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.btn-error:active, .btn-error.active {
+    background: coral;
+    box-shadow: inset 0 0 3px 3px;
+}
+.positionbtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.background{
+    background: url(images/backgrounds/1.jpg)
+}
