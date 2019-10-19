@@ -72,6 +72,7 @@
     background-color: rgba(171, 220, 243, 0.589);
     justify-content:center;
     align-items:center;
+    border-radius: 20px;
 }
 .content{
     display: flex;
@@ -84,6 +85,7 @@
     border-bottom: 2px double;
     align-items: flex-start;
     background-color: rgba(199, 236, 253, 0.589);
+    border-radius: 20px;
 }
 .content2{
     display: flex;
@@ -91,13 +93,15 @@
     border-bottom: 2px double;
     justify-content:center;
     align-items: center;
-    background-color: rgba(199, 236, 253, 0.589);  
+    background-color: rgba(199, 236, 253, 0.589); 
+    border-radius: 20px; 
 }
 .content3{
     display: flex;
     padding: 15px;
     align-items: flex-end;
-    background-color: rgba(199, 236, 253, 0.589);  
+    background-color: rgba(199, 236, 253, 0.589);
+    border-radius: 20px;  
 }
 .description{
     display: flex;
